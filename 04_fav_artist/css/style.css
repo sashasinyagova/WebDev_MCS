@@ -1,0 +1,13 @@
+div {
+	font-family:helvetica;
+}
+
+img {
+	width: 800px;
+	height: 500px;
+}
+
+h1, h2 {
+	color: white;
+	background-color: black;
+}
