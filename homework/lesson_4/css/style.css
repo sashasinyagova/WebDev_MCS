@@ -1,0 +1,90 @@
+@import url(reset.css);
+.header {
+	width: 1440px;
+	height: 200px;
+	background-color: #E5E000;
+}
+
+.header h1 {
+	font-family: Helvetica;
+	font-size: 50px;
+	line-height: 57px;
+	margin-left: 80px;
+	color: #FFFFFF;
+	line-height: 200px;
+}
+.img {
+	background-image: url(../img/img2.jpg);
+	background-position: left;
+	width: 1440px;
+	height: 1080px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.section-two {
+	width: 1440px;
+	height: 100px;
+	background-color: #E5E000;
+}
+
+.section-two h2 {
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	text-transform: uppercase;
+	margin-left: 80px;
+	color: #FFFFFF;
+	line-height: 100px;
+}
+
+.section-three {
+	width: 1440px;
+	height: 847px;
+}
+
+.section-three h2 {
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	color: #000000;
+	margin-left: 80px;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+.section-three p{
+	font-family: Helvetica;
+	font-style: normal;
+	font-size: 50px;
+	color: #000000;
+	margin-left: 80px;
+	line-height: 57px;
+}
+
+.footer {
+	width: 1440px;
+	height: 200px;
+	background-color: #E5E000;
+}
+
+.footer-text h2{
+	font-family: Helvetica;
+	font-size: 50px;
+	text-align: right;
+	color: #FFFFFF;
+	line-height: 200px;
+	margin-right: 80px;
+}
+
+.footer-img img{
+	position:relative;
+	float: left;
+	width: 205px;
+	height: 46px;
+	margin-left: 80px;
+	margin-top: 77px;
+}
+
