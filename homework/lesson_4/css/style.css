@@ -1,6 +1,5 @@
 @import url(reset.css);
 .header {
-	width: 1440px;
 	height: 200px;
 	background-color: #E5E000;
 }
@@ -16,14 +15,12 @@
 .img {
 	background-image: url(../img/img2.jpg);
 	background-position: left;
-	width: 1440px;
 	height: 1080px;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 .section-two {
-	width: 1440px;
 	height: 100px;
 	background-color: #E5E000;
 }
@@ -40,8 +37,6 @@
 }
 
 .section-three {
-	width: 1440px;
-	height: 847px;
 }
 
 .section-three h2 {
@@ -62,12 +57,15 @@
 	color: #000000;
 	margin-left: 80px;
 	line-height: 57px;
+	margin-bottom: 50px;
 }
 
 .footer {
-	width: 1440px;
 	height: 200px;
 	background-color: #E5E000;
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+	background-position: 77px;
 }
 
 .footer-text h2{
@@ -77,14 +75,5 @@
 	color: #FFFFFF;
 	line-height: 200px;
 	margin-right: 80px;
-}
-
-.footer-img img{
-	position:relative;
-	float: left;
-	width: 205px;
-	height: 46px;
-	margin-left: 80px;
-	margin-top: 77px;
 }
 
