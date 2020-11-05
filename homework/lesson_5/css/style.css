@@ -1,0 +1,63 @@
+@import url(reset.css);
+
+.header-container {
+	height: 60px;
+	background-color: #FE1A19;
+}
+
+.header-container h1 {
+	font-family: Helvetica;
+	text-transform: uppercase;
+	font-size: 20px;
+	margin-left: 20px;
+	color: #FFFFFF;
+	line-height: 60px;
+}
+
+.early-life, .career, .weather-project {
+	width: 400px;
+	height: 800px;
+	border: 5px solid #FE1A19;
+	box-sizing: border-box;
+	border-radius: 30px;
+	display: inline-block;
+	margin-top: 52px;
+	margin-bottom: 52px;
+	margin-right: 50px;
+	padding: 30px;
+	vertical-align: top;
+}
+
+.early-life {
+	margin-left: 70px;
+}
+
+.content h2 {
+	font-family: Helvetica;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 40px;
+	color: black;
+}
+
+.content p {
+	font-family: Helvetica;
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+.footer {
+	height: 60px;
+	background-color: #FE1A19;
+}
+
+.footer-text h2 {
+	font-family: Helvetica;
+	text-transform: uppercase;
+	font-size: 20px;
+	margin-left: 20px;
+	color: #FFFFFF;
+	line-height: 60px;
+}
