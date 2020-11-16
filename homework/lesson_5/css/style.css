@@ -1,17 +1,31 @@
-@import url(reset.css);
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html { 
+	font-size: 10px; 
+}
+
+:root {
+  --color: #FE1A19;
+  --font-family: Helvetica;
+  --size: 2rem;
+}
 
 .header-container {
-	height: 60px;
-	background-color: #FE1A19;
+	height: 6rem;
+	background-color: var(--color);
 }
 
 .header-container h1 {
-	font-family: Helvetica;
+	font-family: var(--font-family);
 	text-transform: uppercase;
-	font-size: 20px;
-	margin-left: 20px;
+	font-size: var(--size);
+	margin-left: var(--size);
 	color: #FFFFFF;
-	line-height: 60px;
+	line-height: 6rem;
 }
 
 .content {
@@ -24,44 +38,43 @@
 }
 
 .early-life, .career, .weather-project {
-	width: 400px;
-	height: 750px;
-	border: 5px solid #FE1A19;
+	width: 40rem;
+	border: 0.5rem solid #FE1A19;
 	box-sizing: border-box;
-	border-radius: 30px;
+	border-radius: 3rem;
 	display: inline-block;
-	margin-top: 52px;
-	margin-bottom: 52px;
-	margin-right: 50px;
-	padding: 30px;
+	margin-top: 5.2rem;
+	margin-bottom: 5.2rem;
+	padding: 3rem;
 	vertical-align: top;
 }
 
-.early-life {
-	margin-left: 70px;
+.career {
+	margin-right: 5rem;
+	margin-left: 5rem;
 }
 
 .content h2 {
-	font-family: Helvetica;
+	font-family: var(--font-family);
 	text-transform: uppercase;
 	font-weight: bold;
-	font-size: 20px;
-	margin-bottom: 40px;
+	font-size: var(--size);
+	margin-bottom: 4rem;
 	color: black;
 	text-align: justify;
 }
 
 .content p {
-	font-family: Helvetica;
-	font-size: 18px;
+	font-family: var(--font-family);
+	font-size: 1.8rem;
 	line-height: 1.5;
-	margin-bottom: 20px;
+	margin-bottom: var(--size);
 	text-align: justify;
 }
 
 .footer {
-	height: 60px;
-	background-color: #FE1A19;
+	height: 6rem;
+	background-color: var(--color);
 }
 
 .footer-text h2 {
