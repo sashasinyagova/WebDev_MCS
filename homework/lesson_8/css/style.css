@@ -39,7 +39,7 @@ html {
 	margin: auto;
 	display: flex;
 	justify-content: space-between;
-	align-items: stretch;
+	align-items: flex-start;
 }
 
 .column {
